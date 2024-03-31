@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:layout_below="@id/toolbar"
+    android:theme="@style/AppTheme"
+    app:layout_constraintTop_toBottomOf="@id/toolbar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <include layout="@layout/instruction_tv_layout" />
+    <include layout="@layout/radio_buttons_layout" />
+    <include layout="@layout/edit_text_layout" />
+
+</LinearLayout>

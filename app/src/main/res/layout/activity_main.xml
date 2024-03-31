@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.MainActivity">
+
+    <include layout="@layout/toolbar_layout" />
+    <include layout="@layout/transparent_background" />
+    <include layout="@layout/content_main" />
+    <include layout="@layout/extended_fab_layout" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

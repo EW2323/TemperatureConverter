@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Temperature Converter</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="about">About</string>
+    <string name="display_header">Display</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="night_mode_key">Night Mode</string>
+    <string name="night_mode_title">Dark/Night Mode</string>
+    <string name="night_mode_off">Never use Night/Dark Mode</string>
+    <string name="night_mode_on">Use Night/Dark Mode (unless disabled in OS Settings)</string>
+    <string name="background_image">Background Image</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="enter_temperature">Enter Temperature</string>
+    <string name="convert">Convert</string>
+    <string name="instruction_string">Select Celsius or Fahrenheit.
+        Then enter the temperature you want to convert.</string>
+</resources>
